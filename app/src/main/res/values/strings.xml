@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hfcl</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="regularization_type">
+        <item>-Please Select-</item>
+        <item>On Duty</item>
+        <item>Mis-Punch</item>
+    </string-array>
+</resources>

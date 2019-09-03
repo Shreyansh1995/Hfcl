@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0064b6</color>
+    <color name="colorPrimaryDark">#025090</color>
+    <color name="colorAccent">#0064b6</color>
+    <color name="submit_button_bg">#4abc59</color>
+    <color name="submit_button_border">#ae369e47</color>
+    <color name="today_quote_bg">#c2c2c2</color>
+    <color name="today_quote_border">#5f4e38</color>
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#bcbbbb</color>
+    <color name="black">#FF000000</color>
+    <color name="header_grey_color">#e7e7e7</color>
+    <color name="Black0Percent">#00000000</color>
+
+    <color name="logo_blue">#0064b6</color>
+</resources>

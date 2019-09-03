@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cal_date_rlayout"
+    android:layout_width="@dimen/_60sdp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/_2sdp"
+    android:layout_marginRight="@dimen/_2sdp"
+    android:background="#F2F0FB"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp">
+
+    <TextView
+        android:id="@+id/date_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textColor="#000"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/att_status_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textColor="#000"
+        android:textSize="@dimen/_10sdp" />
+</RelativeLayout>

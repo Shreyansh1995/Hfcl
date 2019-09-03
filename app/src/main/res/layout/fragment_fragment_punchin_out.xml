@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentPunchinOutNew">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_punchin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_55sdp">
+
+            <ImageView
+                android:id="@+id/iv_mark"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/circular_green_layout" />
+
+            <com.netcomm.hfcl.utils.OfficeNetOpenSansTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Mark \nAttendance"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_18sdp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_punchout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <ImageView
+                android:id="@+id/iv_day_off"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/circular_green_layout" />
+
+            <com.netcomm.hfcl.utils.OfficeNetOpenSansTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Day Off"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_18sdp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+    <com.netcomm.hfcl.utils.OfficeNetOpenSansTextViewBold
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:padding="@dimen/_1sdp"
+        android:background="#80009868"
+        android:textColorHint="@color/white"
+        />
+
+</RelativeLayout>
